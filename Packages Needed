@@ -1,0 +1,12 @@
+import nltk 
+nltk.download('punkt') 
+nltk.download('vader_lexicon') 
+from textblob import TextBlob 
+import pandas as pd 
+import numpy as np 
+from nltk.classify import NaiveBayesClassifier 
+from nltk.corpus import subjectivity
+from nltk.sentiment import SentimentAnalyzer 
+from nltk.sentiment.util import *
+from nltk.sentiment.vader import SentimentIntensityAnalyzer 
+from nltk import tokenize
